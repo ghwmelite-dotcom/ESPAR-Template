@@ -1,7 +1,7 @@
 # E-SPAR Interactive Training — Configurable Institution Template
 
 A self-contained, single-file interactive training on the **Staff Performance
-Appraisal System** and **e-SPAR** for officers of the Ghana Public Service.
+Appraisal System** and **e-SPAR** for officers of the Ghana Civil Service.
 
 This is the **re-brandable template** version of the OASL e-SPAR training. The
 appraisal mechanics (the 7 competencies, scoring, the appraisal cycle, quizzes,
@@ -39,7 +39,7 @@ DOM and all event listeners — nothing else needs to change.
 
 | Field | What it controls |
 |---|---|
-| `abbr` | The short institution abbreviation in the brand header (e.g. `PSI`). |
+| `abbr` | The short institution abbreviation in the brand header (e.g. `GCS`). |
 | `title` | The browser tab title (`<title>`) and the document title. |
 | `metaDesc` | The `<meta name="description">` used by search engines and link previews. |
 | `brandSubtitle` | The full institution name shown under the brand in the header. |
@@ -71,19 +71,20 @@ Find it in `public/index.html` between the comments:
 <!-- ▲ END WORKED EXAMPLE -->
 ```
 
-The template ships with a generic **Client Services Officer** persona built around
-three focus areas:
+The template ships with a **Schedule Officer in a directorate** persona built
+around five focus areas:
 
-1. **Service Delivery & Client Care**
-2. **Quality Assurance & Accountability**
-3. **Records & Data Management**
+1. **Core Mandate Delivery**
+2. **Human Resource Management & Staff Development**
+3. **Information, Records & Data Management**
+4. **Stakeholder Engagement & Public Education**
+5. **Corporate Performance, Reporting & Budget**
 
-(plus a Stakeholder & Client Engagement area and the standard corporate-reporting
-area). Replace the target wording, status notes, scores and comments with an
-example that fits your institution. Keep each target's wording consistent wherever
-it reappears across the four phases. The AI-rewrite sample drafts and the
-competency behaviour examples live in the `<script>` section further down and can
-be edited the same way.
+Replace the target wording, status notes, scores and comments with an example that
+fits your institution. Keep each target's wording consistent wherever it reappears
+across the four phases. The AI-rewrite sample drafts and the competency behaviour
+examples live in the `<script>` section further down and can be edited the same
+way.
 
 ---
 
