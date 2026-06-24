@@ -1,0 +1,15 @@
+name = "espar-training-template"
+# NOTE: Pages config does not support account_id. This project lives in the
+# Ohcsghana.main account (f4f236a6cd8fbddf397c6e9de17d8113) — set
+# CLOUDFLARE_ACCOUNT_ID to that id when running wrangler (deploy / kv / pages dev).
+compatibility_date = "2025-06-05"
+pages_build_output_dir = "public"
+
+# Workers AI — powers the SMART-target AI rewrite (functions/api/rewrite.js)
+[ai]
+binding = "AI"
+
+# KV — per-IP daily rate limit for the AI rewrite endpoint
+[[kv_namespaces]]
+binding = "RL"
+id = "9e9c8fb9fac74371af3f2ec16ab6afa5"
